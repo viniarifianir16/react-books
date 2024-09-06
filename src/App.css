@@ -1,0 +1,132 @@
+html, body, #root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* FORM STYLE */
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+form select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button{
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.btn-submit {
+  background-color: #008CBA;
+  margin-right: 10px;
+}
+
+.btn-edit {
+  background-color: #4CAF50;
+  margin-right: 5px;
+}
+
+.btn-delete {
+  background-color: #f44336;
+}
+
+.btn-reset {
+  background-color: #8a8a8a;
+}
+
+/* TABLE STYLE */
+table {
+  width: 100%;
+  min-width: 500px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  /* table-layout: fixed; */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  table-layout: fixed;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.break-td {
+  word-break: break-all; 
+}
